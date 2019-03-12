@@ -1,8 +1,59 @@
 .AboutMeSection{
     background-color: #fff;
-    padding-top:150px;
+}
+
+.AboutMeSection h1{
+    padding: 20px;
     font-size: 3rem;
     text-align: center;
-    height: 100vh;
 
+}
+
+.AboutMeSection h1::after{
+    content:"";
+    display: block;
+    width: 75%;
+    margin: 4px auto;
+    border-bottom: 2px solid #4ABCDD;
+}
+
+.AboutMeSection p{
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    line-height: 2rem;
+}
+
+.infoAboutMe{
+    font-weight: bold;
+}
+
+.interestings{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.interestings p{
+    width: 100%;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.interestings i{
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+    font-size: 5rem;
+    padding: 20px;
+    margin: 5px;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.interestings i p{
+    /* font-family: 'lato'; */
+    font-size: 1.5rem;
+    padding: 0;
+    line-height: 2rem;
 }
