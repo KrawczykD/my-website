@@ -4,3 +4,23 @@
   /* height: 200vh; */
 }
 
+.forAll{
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.forAll h1{
+  padding: 20px;
+  font-size: 3rem;
+  text-align: center;
+
+}
+
+.forAll h1::after{
+  content:"";
+  display: block;
+  width: 40%;
+  margin: 4px auto;
+  border-bottom: 4px solid #4ABCDD;
+}
+

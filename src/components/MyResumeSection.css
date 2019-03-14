@@ -1,7 +1,86 @@
-.MyResumeSection{
+/* .MyResumeSection{
     background-color: #fff;
-    padding-top:150px;
+}
+
+.MyResumeSection h1{
+    padding: 20px;
     font-size: 3rem;
     text-align: center;
-    height: 100vh;
+
+}
+
+.MyResumeSection h1::after{
+    content:"";
+    display: block;
+    width: 75%;
+    margin: 4px auto;
+    border-bottom: 2px solid #4ABCDD;
+} */
+
+.education p{
+    display: inline;
+    padding: 10px;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.leftTimeLine{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    /* padding-right: 50%; */
+}
+
+.rightTimeLine{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    /* padding-left: 50%; */
+}
+
+.school {
+    padding: 20px;
+}
+
+.schoolName{
+    display: inline;
+    font-size: 2.5rem;
+    
+    font-weight: bold;
+    
+}
+
+.schoolDetail p{
+    padding: 0 30px;
+    font-size: 1.5rem;
+}
+
+.schoolDetail p:first-child{
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+.schoolDetail p:nth-child(3){
+    color:#555;
+}
+
+.leftTimeLine .schoolName::after{
+    content:"";
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin-left: 20px;
+    background-color: #aaa;
+    border-radius: 50px;
+}
+
+.rightTimeLine .schoolName::before{
+    content:"";
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin-right: 20px;
+    background-color: #aaa;
+    border-radius: 50px;
 }
