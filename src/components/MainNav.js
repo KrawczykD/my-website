@@ -3,17 +3,19 @@ import "./MainNav.css";
 var scrollToElement = require('scroll-to-element');
 
 const MainNav =(props)=>{
+    // npm scroll-to-element
+
     const scroll=(e)=>{
 
         e.preventDefault();
         var element = e.target.getAttribute('href') ;
         var elem = document.getElementById(element);
-        var offset = element === "1" ? -window.innerHeight : -elem.offsetHeight/2
 
         scrollToElement(elem, {
-        offset: offset ,
+        offset: elem.id === "1" ? -2000 : -390 ,
         ease: 'in-quad',
-        duration: 1000
+        duration: 1000,
+        align: "top"
         });
     }
     
@@ -25,7 +27,7 @@ const MainNav =(props)=>{
                 <button onClick={props.handleColapseNav}>
                     <i className={props.navActive ? "fas fa-times" : "fas fa-bars"}></i>
                 </button>
-                <ul style={props.navActive ? {height:"350px"} : {heigh:"0px"}}>
+                <ul style={props.navActive ? {height:"350px"} : {height:"40px"}}>
                     <li onClick={props.navActive ? props.handleColapseNav : null }><a onClick={(e)=>(scroll(e))} href="1">HOME</a></li>
                     <li onClick={props.handleColapseNav}><a onClick={(e)=>(scroll(e))} href="2">About Me</a></li>
                     <li onClick={props.handleColapseNav}><a onClick={(e)=>(scroll(e))} href="3">My Service</a></li>

@@ -34,7 +34,7 @@ const schools = [{
 const MyResumeSection=()=>{
 
     const schoolsList = schools.map((school) => (
-        <div className="timeLine">
+        <div className="timeLine" key={school.key}>
                 <div className={school.side}>
                     <div className="school">
                         <p className="schoolName">{school.schoolGrade}</p>
@@ -46,6 +46,7 @@ const MyResumeSection=()=>{
                     </div>
                 </div>
         </div>
+        
     ))
 
     return(

@@ -17,6 +17,7 @@
     border-bottom: 2px solid #4ABCDD;
 } */
 
+
 .education p{
     display: inline;
     padding: 10px;
@@ -46,13 +47,12 @@
 .schoolName{
     display: inline;
     font-size: 2.5rem;
-    
     font-weight: bold;
     
 }
 
 .schoolDetail p{
-    padding: 0 30px;
+    padding: 0 45px;
     font-size: 1.5rem;
 }
 
@@ -68,19 +68,22 @@
 .leftTimeLine .schoolName::after{
     content:"";
     display: inline-block;
-    height: 12px;
-    width: 12px;
+    height: 15px;
+    width: 15px;
     margin-left: 20px;
-    background-color: #aaa;
-    border-radius: 50px;
+    background-color: #fff;
+    border: 5px solid #555;
+    border-radius: 100px;
 }
 
 .rightTimeLine .schoolName::before{
     content:"";
     display: inline-block;
-    height: 12px;
-    width: 12px;
+    height: 15px;
+    width: 15px;
+    /* margin-left: 20px; */
     margin-right: 20px;
-    background-color: #aaa;
-    border-radius: 50px;
+    background-color: #fff;
+    border: 5px solid #555;
+    border-radius: 100px;
 }
