@@ -5,12 +5,13 @@
     
 }
 
-.serviceIco img{
-    width: 150px;
-    height: 150px;
-    padding: 20px;
+.serviceIco img , .serviceIco i{
+    width: 200px;
+    height: 200px;
+    padding: 15px;
     border: 4px solid #bbb;
     border-radius: 100px;
+    font-size: 16rem;
 }
 
 .serviceSection h2{
