@@ -6,11 +6,11 @@
 
 .forAll{
   background-color: #fff;
-  /* padding: 50px; */
+  padding: 5px;
 }
 
 .forAll h1{
-  padding: 20px;
+  padding: 20px 0;
   font-size: 3rem;
   text-align: center;
 

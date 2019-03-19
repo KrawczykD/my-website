@@ -2,28 +2,28 @@ import React from 'react';
 import './MyResumeSection.css';
 
 const schools = [{
-    key:"0",
+    id:"0",
     schoolGrade:"Szkola pierwsza",
     schoolName:"Szkola wyzsza 2019 - 2019",
     directionName:"Kierunek",
     description:"Opis szkoly , kierunku na maxymalnie 2 linijki",
     side:"rightTimeLine",
 },{
-    key:"1",
+    id:"1",
     schoolGrade:"Szkola druga",
     schoolName:"Szkola srednia 2019 - 2901",
     directionName:"Kierunek",
     description:"Opis szkoly , kierunku na maxymalnie 2 linijki",
     side:"leftTimeLine",
 },{
-    key:"2",
+    id:"2",
     schoolGrade:"Szkola trzecia",
     schoolName:"Szkola srednia 2901 - 2901",
     directionName:"Kierunek",
     description:"Opis szkoly , kierunku na maxymalnie 2 linijki",
     side:"rightTimeLine",
 },{   
-    key:"3",
+    id:"3",
     schoolGrade:"Szkola czwarta",
     schoolName:"Szkola podstawowa 2190 - 2109",
     directionName:"Kierunek",
@@ -34,7 +34,7 @@ const schools = [{
 const MyResumeSection=()=>{
 
     const schoolsList = schools.map((school) => (
-        <div className="timeLine" key={school.key}>
+        <div className="timeLine" key={school.id}>
                 <div className={school.side}>
                     <div className="school">
                         <p className="schoolName">{school.schoolGrade}</p>

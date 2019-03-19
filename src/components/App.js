@@ -15,6 +15,8 @@ class App extends Component {
   state={
     opacity:0.37,
     navActive: false,
+
+    circleAnimation : false,
   }
 
   componentDidMount() {
@@ -34,12 +36,27 @@ class App extends Component {
     })
   }
 
-  handleScroll=()=>{
+  handleScroll=(e)=>{
     const opacity = (((window.innerHeight/1.6 - window.scrollY)/window.innerHeight).toFixed(2)-1)*-1;
 
     this.setState({
       opacity:opacity,
     })
+    /////// animation procentage circle 
+    const section = document.getElementById('4');
+
+    if(window.scrollY > section.offsetTop -300){
+      this.setState({
+        circleAnimation: true,
+      })
+      console.log(section.offsetHeight)
+    }
+    if(window.scrollY > section.offsetTop + section.offsetHeight || window.scrollY < section.offsetTop - section.offsetHeight)
+    this.setState({
+      circleAnimation: false,
+    })
+
+    ////////////////////////////////
   }
 
   render() {
@@ -50,7 +67,7 @@ class App extends Component {
         <AboutMeSection/>
         <MyResumeSection/>
         <MyServiceSection/>
-        <SkillSection/>
+        <SkillSection circleAnimation={this.state.circleAnimation}/>
         <PortfolioSection/>
         <ContactSection/>
         <Footer/>
