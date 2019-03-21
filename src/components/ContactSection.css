@@ -1,3 +1,37 @@
-.ContactSection{
-    height: 100vh;
+.contact{
+    position: relative;
+    display: flex;
+}
+
+.contact a {
+    height: 150px;
+    width: 150px;
+}
+
+.contact a i{
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50% , -50%);
+
+    font-size: 6rem;
+    color: #000;
+}
+
+.contact a i:hover{
+    font-size: 7rem;
+    transition: all .5s;
+}
+
+.text{
+    display: flex;
+    width: 100%;   
+    align-items: center;
+    justify-content: flex-start;    
+}
+
+.text p{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
 }

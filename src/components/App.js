@@ -26,7 +26,7 @@ class App extends Component {
   componentWillUnmount(){
     window.removeEventListener('scroll',this.handleScroll)
   }
-
+  ////// header opacity scroll and progress circle animation
   handleColapseNav=(e)=>{
     
     e.preventDefault();

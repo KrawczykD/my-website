@@ -26,6 +26,11 @@ const skills = [
         procentage:70,
         skill:"BOOTSTRAP",
     },
+    {
+        id:"5",
+        procentage:70,
+        skill:"Git",
+    },
 ]
 
 
