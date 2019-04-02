@@ -8,19 +8,19 @@ const ContactSection=()=>{
             <div className="contacts">
                 <div className="contact">
                     <a href="mailto:damiankrawczyk23@gmail.com">
-                        <i class="far fa-envelope"></i>
+                        <i className="far fa-envelope"></i>
                     </a>
                     <div className="text"><p>damiankrawczyk23@gmail.com</p></div>
                 </div>
                 <div className="contact">
                     <a href="phoneto:0 777 777 777">
-                        <i class="fas fa-mobile-alt"></i>
+                        <i className="fas fa-mobile-alt"></i>
                     </a>
                     <div className="text"><p>0 777 777 777</p></div>
                 </div>
                 <div className="contact">
                     <a href="https://facebook.com/damian.krawczyk.71868">
-                        <i class="fab fa-facebook-f"></i>
+                        <i className="fab fa-facebook-f"></i>
                     </a>
                     <div className="text"><p>Damian krawczyk</p></div>
                 </div>
