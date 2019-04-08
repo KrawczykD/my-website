@@ -14,7 +14,7 @@ const MainNav =(props)=>{
         scrollToElement(elem, {
         offset: elem.id === "1" ? -2000 : -390 ,
         ease: 'in-quad',
-        duration: 1000,
+        duration: 1500,
         align: "top"
         });
     }

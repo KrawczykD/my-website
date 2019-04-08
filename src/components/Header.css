@@ -38,10 +38,13 @@ header{
 
 .title h1{
     font-size: 3.5rem;
+    padding-bottom: 30px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
 }
 
 .title h3{
     font-size: 2rem;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
 }
 
 @media(orientation:landscape){
