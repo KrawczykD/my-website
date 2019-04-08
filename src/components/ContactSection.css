@@ -1,10 +1,14 @@
+.contacts{
+    padding-top:60px;
+}
+
 .contact{
     position: relative;
     display: flex;
 }
 
 .contact a {
-    height: 150px;
+    height: 100px;
     width: 150px;
 }
 
@@ -21,7 +25,7 @@
 
 .contact a i:hover{
     font-size: 7rem;
-    transition: all .5s;
+    transition: all .5 ease-in-out;
 }
 
 .text{
@@ -32,6 +36,6 @@
 }
 
 .text p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
 }

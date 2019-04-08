@@ -6,7 +6,7 @@
 
 .forAll{
   background-color: #fff;
-  padding: 5px;
+  padding: 15px;
 }
 
 .forAll h1{
@@ -19,8 +19,8 @@
 .forAll h1::after{
   content:"";
   display: block;
-  width: 40%;
+  width: 50%;
   margin: 4px auto;
-  border-bottom: 4px solid #4ABCDD;
+  border-bottom: 3px solid #4ABCDD;
 }
 

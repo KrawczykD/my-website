@@ -24,7 +24,7 @@ const services = [{
         title:"Designe and Idea" , 
         description:"I can build for you responsive web designe with using css grid , mediaQueries , bootstrap and flexbox" , 
         imgAlt:"sketch with devices" , 
-        source: require('../images/designe.png')},
+        source: require('../images/designe.jpg')},
         {
         id:4,
         title:"Landing Page & SPA" , 
