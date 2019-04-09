@@ -31,9 +31,9 @@ const PortfolioSection=()=>{
     ]
 
     const list = portfolioItems.map( item =>(
-        <div className="item">
+        <div className="item" key={item.id}>
                         <div className="touchButton">
-                            <i class="far fa-hand-pointer"></i>
+                            <i className="far fa-hand-pointer"></i>
                         </div>
                             <img alt={item.imgAlt} src={item.link}></img>
                             <a href={item.ghLink} target="_blank" rel="noopener noreferrer" className="itemCoverOpacity">

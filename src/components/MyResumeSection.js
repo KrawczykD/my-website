@@ -3,31 +3,35 @@ import './MyResumeSection.css';
 
 const schools = [{
     id:"0",
-    schoolGrade:"Szkola pierwsza",
-    schoolName:"Szkola wyzsza 2019 - 2019",
-    directionName:"Kierunek",
-    description:"Opis szkoly , kierunku na maxymalnie 2 linijki",
+    schoolGrade:"Udemy student",
+    schoolName:"Udemy",
+    year: "2016 - Current",
+    directionName:"Web Developer , React , JavaScript",
+    description:"Web Developer , React , JavaScript",
     side:"rightTimeLine",
 },{
     id:"1",
-    schoolGrade:"Szkola druga",
-    schoolName:"Szkola srednia 2019 - 2901",
-    directionName:"Kierunek",
-    description:"Opis szkoly , kierunku na maxymalnie 2 linijki",
+    schoolGrade:"Functional Skills qualfication",
+    schoolName:"Business advice direct limited",
+    year: "2018",
+    directionName:"Mathematics at Level 2",
+    description:"Mathematics at Level 2",
     side:"leftTimeLine",
 },{
     id:"2",
-    schoolGrade:"Szkola trzecia",
-    schoolName:"Szkola srednia 2901 - 2901",
-    directionName:"Kierunek",
-    description:"Opis szkoly , kierunku na maxymalnie 2 linijki",
+    schoolGrade:"BTEC national certificate RQF Level 3",
+    schoolName:"Vocational secondary school",
+    year: "2006 - 2009",
+    directionName:"Certificate of completion from a vocational secondary IT school",
+    description:"Certificate of completion from a vocational secondary IT school",
     side:"rightTimeLine",
 },{   
     id:"3",
-    schoolGrade:"Szkola czwarta",
-    schoolName:"Szkola podstawowa 2190 - 2109",
-    directionName:"Kierunek",
-    description:"Opis szkoly , kierunku na maxymalnie 2 linijki",
+    schoolGrade:"GCE advance A level",
+    schoolName:"Vocational secondary school",
+    year: "2006 - 2009",
+    directionName:"Certificate of maturity",
+    description:"Certificate of maturity",
     side:"leftTimeLine",
 }]
 
@@ -37,10 +41,10 @@ const MyResumeSection=()=>{
         <div className="timeLine" key={school.id}>
                 <div className={school.side}>
                     <div className="school">
-                        <p className="schoolName">{school.schoolGrade}</p>
+                        <p className="schoolName">{school.schoolName}</p>
                         <div className="schoolDetail">
-                            <p>{school.schoolName}</p>
-                            <p>{school.shoolDirection}</p>
+                            <p>{school.schoolGrade}</p>
+                            <p>{school.year}</p>
                             <p>{school.description}</p>
                         </div>
                     </div>

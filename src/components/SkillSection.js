@@ -7,28 +7,28 @@ import 'react-circular-progressbar/dist/styles.css';
 const skills = [
     {
         id:"0",
-        procentage:77,
+        procentage:58,
         skill:"HTML",
     },{
         id:"1",
-        procentage:55,
+        procentage:54,
         skill:"CSS",
     },{
         id:"2",
-        procentage:33,
+        procentage:66,
         skill:"JS",
     },{
         id:"3",
-        procentage:78,
+        procentage:60,
         skill:"REACT",
     },{
         id:"4",
-        procentage:70,
+        procentage:34,
         skill:"BOOTSTRAP",
     },
     {
         id:"5",
-        procentage:70,
+        procentage:34,
         skill:"Git",
     },
 ]

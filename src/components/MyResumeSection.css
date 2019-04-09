@@ -19,8 +19,8 @@
 
 
 .education p{
-    display: inline;
-    padding: 10px;
+    display: inline-block;
+    padding: 20px 10px;
     font-size: 3rem;
     font-weight: bold;
     letter-spacing: 3px;
@@ -52,7 +52,7 @@
 }
 
 .schoolDetail p{
-    padding: 0 45px;
+    padding: 10px 45px;
     font-size: 1.5rem;
 }
 
@@ -65,25 +65,27 @@
     color:#555;
 }
 
+/* for bigger screen */
+
+/* 
 .leftTimeLine .schoolName::after{
     content:"";
     display: inline-block;
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
     margin-left: 20px;
     background-color: #fff;
-    border: 5px solid #555;
+    border: 2px solid #555;
     border-radius: 100px;
 }
 
 .rightTimeLine .schoolName::before{
     content:"";
     display: inline-block;
-    height: 15px;
-    width: 15px;
-    /* margin-left: 20px; */
+    height: 10px;
+    width: 10px;
     margin-right: 20px;
     background-color: #fff;
-    border: 5px solid #555;
+    border: 2px solid #555;
     border-radius: 100px;
-}
+} */
