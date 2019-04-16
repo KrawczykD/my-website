@@ -17,6 +17,9 @@
     border-bottom: 2px solid #4ABCDD;
 } */
 
+.MyResumeSection{
+    position: relative;
+}
 
 .education p{
     display: inline-block;
@@ -39,8 +42,20 @@
     text-align: left;
     /* padding-left: 50%; */
 }
+    /* nead to be fixed !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.line{
+    display: none;
+    position: absolute;
+    bottom: 105px;
+    left:50%;
+    width: 2px;
+    height: 70%;
+    background-color: #555;
+    transform: translate(-50% , 0)
+}
 
 .school {
+    position: relative;
     padding: 20px;
 }
 
@@ -89,3 +104,53 @@
     border: 2px solid #555;
     border-radius: 100px;
 } */
+
+@media(min-width:576px){
+    .line{
+        display: inline;
+    }
+
+    .leftTimeLine .schoolName::after{
+        content:"";
+        display: block;
+        position: absolute;
+        top:50%;
+        right:-10px;
+        height: 16px;
+        width: 16px;
+        margin-left: 20px;
+        background-color: #fff;
+        border: 2px solid #555;
+        border-radius: 100px;
+    }
+    
+    .rightTimeLine .schoolName::before{
+        content:"";
+        display: block;
+        position: absolute;
+        top:50%;
+        left:-10px;
+        height: 16px;
+        width: 16px;
+        margin-right: 20px;
+        background-color: #fff;
+        border: 2px solid #555;
+        border-radius: 100px;
+    }
+
+    .leftTimeLine{
+        padding-right: 50%;
+    }
+    
+    .rightTimeLine{
+        padding-left: 50%;
+    }
+
+    .school{
+        padding: 0 40px;
+    }
+
+    .education p{
+        padding-bottom: 50px;
+    }
+  }

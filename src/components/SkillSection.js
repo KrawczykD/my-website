@@ -48,8 +48,10 @@ const SkillSection=(props)=>{
 
     return(
         <div id="4" className="SkillSection forAll">
-            <h1 className="forAll h1">SKILLS</h1>
-            {skillsList}
+            <div className="skills">
+                <h1 className="forAll h1">SKILLS</h1>
+                {skillsList}
+            </div>
         </div>
     )
 }

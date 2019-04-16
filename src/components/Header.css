@@ -47,8 +47,21 @@ header{
     text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
 }
 
-@media(orientation:landscape){
-   header{
-    background-position:0px 0px;
-   }
+/* CSS for screen bigger then 600px */
+
+@media(min-width:576px){
+
+    /* background position */
+    header{
+        background-position:0px 0px;
+       }
+
+    .title h1{
+        font-size: 6rem;
+        padding-bottom: 70px;
+    }
+    
+    .title h3{
+        font-size: 3rem;
+    }
 }

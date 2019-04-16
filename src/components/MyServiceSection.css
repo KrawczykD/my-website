@@ -26,3 +26,9 @@
     font-size: 1.5rem;
     color: #555;
 }
+
+@media(min-width:576px){
+    .serviceSection h2{
+        font-size: 2.5rem;
+    }
+}

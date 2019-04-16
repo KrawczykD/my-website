@@ -1,5 +1,5 @@
 .App{
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   /* height: 200vh; */
 }
@@ -22,5 +22,22 @@
   width: 50%;
   margin: 4px auto;
   border-bottom: 3px solid #4ABCDD;
+}
+
+@media(min-width:600px){
+  .forAll{
+    padding: 45px 45px;
+  }
+
+  .forAll h1{
+    padding: 20px 0 150px 0;
+    font-size: 4rem;
+  }
+}
+
+@media(min-width:1400px){
+  .App{
+    max-width: 1600px;
+  }
 }
 

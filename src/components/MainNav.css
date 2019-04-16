@@ -5,8 +5,8 @@
     padding: 2rem;
     background-color: #fff;
     /* border-bottom: 1px #aaa solid; */
-    box-shadow: 0px 1px 10px #aaa;
-    
+    /* box-shadow: 0px 1px 10px #aaa; */
+    box-shadow: 0px 10px 10px -5px #aaa; 
 }
 
 .mainNav nav button{
@@ -32,6 +32,7 @@
     display: block;
     padding:5px 5px 15px 5px;
     list-style: none;
+    text-align: center;
 }
 
 .mainNav a{
@@ -41,3 +42,11 @@
     font-weight: bold;
     text-decoration: none;
 }
+
+.mainNav a:hover{
+    color:rgba(74, 188, 221);
+}
+
+/* @media(min-width:992px){
+    
+} */

@@ -57,3 +57,9 @@
     padding: 0;
     line-height: 2rem;
 }
+
+@media(min-width:576px){
+    .interestings p{
+        line-height: 8rem;
+    }
+  }

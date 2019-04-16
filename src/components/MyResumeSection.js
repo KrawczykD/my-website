@@ -55,6 +55,7 @@ const MyResumeSection=()=>{
 
     return(
         <div className="MyResumeSection forAll">
+            <div className="line"></div>
             {/* <h1>MY RESUME</h1> */}
             <div className="education"><p>EDUCATION</p></div>
             {schoolsList}

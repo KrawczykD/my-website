@@ -25,10 +25,11 @@
 
 /* for desktop */
 
-/* .contact a i:hover{
-    font-size: 7rem;
-    transition: all .5 ease-in-out;
-} */
+.contact a i:hover{
+    /* font-size: 7rem; */
+    color: rgba(74, 188, 221, 0.9);
+    transition: all 0.2s ease-in-out;
+}
 
 .text{
     display: flex;
@@ -38,6 +39,20 @@
 }
 
 .text p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
+}
+
+@media(min-width:768px){
+    .contact a i{
+        font-size:5rem;
+    }
+    .contact a i:hover{
+        font-size: 7rem;
+        transition: all 0.2s ease-in-out;
+    }
+    .text p{
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
 }

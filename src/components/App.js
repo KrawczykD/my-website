@@ -30,7 +30,7 @@ class App extends Component {
   handleColapseNav=(e)=>{
     
     e.preventDefault();
-
+    
     this.setState({
       navActive: !this.state.navActive,
     })
@@ -49,7 +49,6 @@ class App extends Component {
       this.setState({
         circleAnimation: true,
       })
-      console.log(section.offsetHeight)
     }
     if(window.scrollY > section.offsetTop + section.offsetHeight || window.scrollY < section.offsetTop - section.offsetHeight)
     this.setState({

@@ -24,3 +24,18 @@
 .procentage::first-letter{
     font-size: 130%;
 } */
+
+@media(min-width:576px){
+    .circle{
+        display: inline-block;
+        padding: 05%;
+        width:33%;
+    }
+}
+
+@media(min-width:768px){
+    .skills{
+        margin: 0 auto;
+        max-width: 800px;
+    }
+}
