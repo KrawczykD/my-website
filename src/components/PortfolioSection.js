@@ -27,6 +27,14 @@ const PortfolioSection=()=>{
             title:"Game Rock Scissors Paper",
             ghLink:"https://krawczykd.github.io/Game-Rock-Scissors-Paper/",
             description:"Lorem ipsum dolor sit amet consectetur adipisicing elit Cumque soluta harum iste porro voluptate repellat provident amet odio ipsam animi blanditiis esse aut asperiores itaque placeat mollitia omnis minima consequuntur.Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+        },
+        {
+            id:3,
+            link:require('../images/3_project.png'),
+            imgAlt:"my project to do app in react",
+            title:"React To Do List",
+            ghLink:"https://krawczykd.github.io/To-do-list-react/",
+            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit Cumque soluta harum iste porro voluptate repellat provident amet odio ipsam animi blanditiis esse aut asperiores itaque placeat mollitia omnis minima consequuntur.Lorem ipsum dolor sit, amet consectetur adipisicing elit."
         }
     ]
 
