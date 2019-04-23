@@ -22,7 +22,7 @@ const MainNav =(props)=>{
 
    
     return(
-        <div className="mainNav" style={window.scrollY > window.innerHeight ? {position:"sticky" , top:0 , zIndex:99999} : {}} >
+        <div className="mainNav" style={window.scrollY > window.innerHeight ? {position:"sticky" ,  top:0 , zIndex:99999} : {}} >
             <nav>
                 <button onClick={props.handleColapseNav}>
                     <i className={props.navActive ? "fas fa-times" : "fas fa-bars"}></i>

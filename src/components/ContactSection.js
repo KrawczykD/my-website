@@ -13,7 +13,7 @@ const ContactSection=()=>{
                     <div className="text"><p>If you want contact witch me , please Tap and sent me email</p></div>
                 </div>
                 <div className="contact">
-                    <a href="tel:0777777777">
+                    <a href="tel:07538865743">
                         <i className="fas fa-mobile-alt"></i>
                     </a>
                     <div className="text"><p>Tap to contact me on my phone</p></div>

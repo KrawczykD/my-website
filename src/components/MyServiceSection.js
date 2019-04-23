@@ -4,31 +4,31 @@ import './MyServiceSection.css';
 const services = [{
         id:0,
         title:"Responsive Website" , 
-        description:"Do you want nice looking page on all devices? I can build responsive website for you with using most common and fresh technologies." , 
+        description:"Responsive website is very important to provide the best reception for users on all devices. If you want a nice looking page on all devices I can develop a responsive website for you by using most common and fresh technologies." , 
         imgAlt:"website for all devices like laptop and telephone" , 
         source: require('../images/responsive.jpg')},
         {
         id:1,
         title:"Web Aplication in React" , 
-        description:"React is very common framework today. This website was created in this technology because I very like it. I can also prepare stunning web application for you with using React." , 
+        description:"React is a very common framework today. Thanks using this library, you can easily expand your code and keep it clean. This website was created in this technology because it is my favorite. I can also prepare stunning web site or web application for you with using React." , 
         imgAlt:"react logo" , 
         source: require('../images/react.png')},
         {
         id:2,
         title:"Business Website" , 
-        description:"Do you own a business? Then you need best website! I can build it for you." , 
+        description:"Do you own a business? In this modern world you need your own website to keep in touch with clients. You have to keep your content always up to date. That is why you need best website! I can build it for you." , 
         imgAlt:" peoples table on meeting" , 
         source: require('../images/business1.jpg')},
         {
         id:3,
         title:"Designe and Idea" , 
-        description:"You have no idea how your website should looks like? I can also designed for you whole layout and help you decide what solution choose." , 
+        description:"You have no idea how should your website look like? Design is creative part and is a very important part of the whole development process. I can design for you whole layout and help you decide what solution to choose." , 
         imgAlt:"sketch with devices" , 
         source: require('../images/designe.jpg')},
         {
         id:4,
         title:"Landing Page & SPA" , 
-        description:"If you need Landing page or you want to SPA let me know. If you want to know more about newest trends , contact with me." , 
+        description:"You need Landing page?  Or you want to stunning SPA? Contact me know If you want to know more about new trends, and techniques how to create the best modern websites or web explications." , 
         imgAlt:"cartoon people sitting on paper plane" , 
         source: require('../images/landing.jpg')},
         

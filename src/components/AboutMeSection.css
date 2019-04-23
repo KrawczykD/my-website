@@ -42,7 +42,7 @@
 
 .interestings i{
     flex-grow: 1;
-    flex-basis: 0;
+    flex-basis: 1;
     text-align: center;
     font-size: 5rem;
     padding: 20px;
@@ -52,7 +52,6 @@
 }
 
 .interestings i p{
-    /* font-family: 'lato'; */
     font-size: 1.5rem;
     padding: 0;
     line-height: 2rem;

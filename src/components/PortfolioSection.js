@@ -10,7 +10,7 @@ const PortfolioSection=()=>{
             imgAlt:"my project react weatehr app",
             title:"Weather App in React",
             ghLink:"https://krawczykd.github.io/WeatherApp/",
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit Cumque soluta harum iste porro voluptate repellat provident amet odio ipsam animi blanditiis esse aut asperiores itaque placeat mollitia omnis minima consequuntur.Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+            description:"This application was built in React with using free weather API. Thanks to that you can check current temp , wind speed and many others details about weather in any place in the world. I used also JS , CSS and HTML to build this app. This project learn me how to use API and how to manage data. I used React features like state and stateless components and life-cycle methods. Click on it to go to working demo on github."
         },
         {
             id:1,
@@ -18,7 +18,7 @@ const PortfolioSection=()=>{
             imgAlt:"my project Color Guessing Game",
             title:"Color Guessing Game",
             ghLink:"https://krawczykd.github.io/ColorGame/",
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit Cumque soluta harum iste porro voluptate repellat provident amet odio ipsam animi blanditiis esse aut asperiores itaque placeat mollitia omnis minima consequuntur.Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+            description:"Read the RGB code to guess appropriate answer. This game was built with pure JavaScript, CSS3 and HTML. This game was one of my many others project during my learning path. I have learned new ES6 and developed my JS code skills. Click on it to go to working demo on github."
         },
         {
             id:2,
@@ -26,7 +26,7 @@ const PortfolioSection=()=>{
             imgAlt:"my project game rock scissors paper",
             title:"Game Rock Scissors Paper",
             ghLink:"https://krawczykd.github.io/Game-Rock-Scissors-Paper/",
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit Cumque soluta harum iste porro voluptate repellat provident amet odio ipsam animi blanditiis esse aut asperiores itaque placeat mollitia omnis minima consequuntur.Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+            description:"Rock scissors and paper. This game was built within pure JavaScript, CSS3 and HTML. This game was one of my many others project during my learning path. I have learnt new ES6 and developed my JS code skills. Click on it to go to working demo on github."
         },
         {
             id:3,
@@ -34,7 +34,7 @@ const PortfolioSection=()=>{
             imgAlt:"my project to do app in react",
             title:"React To Do List",
             ghLink:"https://krawczykd.github.io/To-do-list-react/",
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit Cumque soluta harum iste porro voluptate repellat provident amet odio ipsam animi blanditiis esse aut asperiores itaque placeat mollitia omnis minima consequuntur.Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+            description:"I built to do list application in React. Thanks to that you can add, delete tasks to your list. But this application is better than others because use React components. You can also thick important notice, till date and finish date. You can also check the task history. I use React JS, CSS and HTML build this. This project learn me how to manage data by using react and is. I use React features like state and stateless components and new ES6 features like arrow function or new if statement. Click on it to go to working demo on github."
         }
     ]
 

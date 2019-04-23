@@ -11,7 +11,6 @@ import ContactSection from './ContactSection.js'
 import Footer from './Footer.js';
 
 class App extends Component {
-
   state={
     opacity:0.37,
     navActive: false,
