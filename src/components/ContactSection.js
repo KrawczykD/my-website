@@ -10,13 +10,13 @@ const ContactSection=()=>{
                     <a href="mailto:damiankrawczyk23@gmail.com">
                         <i className="far fa-envelope"></i>
                     </a>
-                    <div className="text"><p>If you want contact witch me , please Tap and sent me email</p></div>
+                    <div className="text"><p>If you want contact with me , please Tap and sent me email</p></div>
                 </div>
                 <div className="contact">
                     <a href="tel:07538865743">
                         <i className="fas fa-mobile-alt"></i>
                     </a>
-                    <div className="text"><p>Tap to contact me on my phone</p></div>
+                    <div className="text"><p>Tap phone to contact me<br></br><br></br>07538865743</p></div>
                 </div>
                 <div className="contact">
                     <a href="https://goo.gl/maps/PQxwSWnyY6x">

@@ -59,7 +59,7 @@ const MyResumeSection=()=>{
             {/* <h1>MY RESUME</h1> */}
             <div className="education"><p>EDUCATION</p></div>
             {schoolsList}
-            </div>
+        </div>
     )
 }
 
